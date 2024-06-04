@@ -18,7 +18,7 @@
 
 <script setup>
 import { CountUp } from 'countup.js'
-import { ref, onMounted, defineProps } from 'vue'
+import { ref, onMounted } from 'vue'
 const props = defineProps({
   title: {
     type: String,

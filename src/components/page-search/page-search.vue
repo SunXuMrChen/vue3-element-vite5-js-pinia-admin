@@ -54,7 +54,7 @@
 </template>
 
 <script setup>
-import { reactive, ref, defineEmits, defineProps, defineExpose } from 'vue'
+import { reactive, ref, defineEmits, defineExpose } from 'vue'
 // import usePermissions from '@/hooks/usePermissions'
 
 const emit = defineEmits(['resetClick', 'queryClick'])

@@ -6,7 +6,7 @@
 
 <script setup>
 import BaseEchart from './base-echart.vue'
-import { computed, defineProps } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
   pieData: {

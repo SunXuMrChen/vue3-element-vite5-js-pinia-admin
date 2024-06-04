@@ -38,7 +38,7 @@
 <script setup>
 import useLoginStore from '@/store/login/login'
 import { useRoute, useRouter } from 'vue-router'
-import { computed, defineProps } from 'vue'
+import { computed } from 'vue'
 import { mapPathToMenu } from '@/utils/map-menus'
 
 const props = defineProps({

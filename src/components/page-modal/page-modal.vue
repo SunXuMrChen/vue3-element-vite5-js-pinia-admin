@@ -62,7 +62,7 @@
 
 <script setup>
 import useSystemStore from '@/store/main/system/system'
-import { reactive, ref, defineEmits, defineProps } from 'vue'
+import { reactive, ref, defineEmits } from 'vue'
 
 const emit = defineEmits('')
 
