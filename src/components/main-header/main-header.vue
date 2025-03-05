@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue'
+import { ref } from 'vue'
 import HeaderCrumb from './c-cpns/header-crumb.vue'
 import HeaderInfo from './c-cpns/header-info.vue'
 

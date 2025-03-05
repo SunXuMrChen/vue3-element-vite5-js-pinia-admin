@@ -24,7 +24,7 @@
 
 <script setup>
 import { ElMessage } from 'element-plus'
-import { ref, reactive, defineExpose } from 'vue'
+import { ref, reactive } from 'vue'
 import useLoginStore from '@/store/login/login'
 import { localCache } from '@/utils/cache'
 

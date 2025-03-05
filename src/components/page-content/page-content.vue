@@ -78,7 +78,7 @@
 import useSystemStore from '@/store/main/system/system'
 import usePermissions from '@/hooks/usePermissions'
 import { storeToRefs } from 'pinia'
-import { ref, defineEmits, defineExpose } from 'vue'
+import { ref } from 'vue'
 
 const props = defineProps({
   contentConfig: {
